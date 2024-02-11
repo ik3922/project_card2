@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    background-color: rgb(204, 204, 204);
+}
+
+.main {
+    background-image: url(./imges/home_developer3_subheader3.jpg);
+    background-size: cover;
+    height: 300px;
+    font-family: 'Josefin Sans', sans-serif;
+    
+    
+}
+
+.con1 {
+    text-align: center;
+
+}
+
+.h1 {
+    padding-top: 20px;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+}
+
+.h6 {
+    margin-top: 20px;
+    font-size: 20px;
+    color: gray;
+    font-style: italic;
+    
+}
+
+.freePik {
+    margin-top: 20px;
+    color: gray;
+    font-style: italic;
+}
+
+.con2{
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    max-width: 1450px;
+    margin: 0 auto;
+    grid-gap:50px;
+}
+
+.card {
+    
+    border-radius: 25px;
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    
+}
+
+.one {
+    background-color: rgb(189, 178, 133);
+}
+
+.twoo {
+    background-color: rgb(79, 97, 85);
+}
+
+.three {
+    background-color: rgb(189, 178, 133);
+}
+
+.foure{
+    background-color:rgb(79, 97, 85);
+}
+
+.five {
+    background-color: rgb(79, 97, 85);
+}
+
+.six {
+    background-color: rgb(189, 178, 133);
+}
+
+.seven {
+    background-color: rgb(79, 97, 85);
+}
+
+.acht {
+    background-color: rgb(189, 178, 133);
+}
+
+.icons {
+    margin-left: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 120px;
+    background-size: cover;
+    border-radius: 50%;
+    background-color: white;
+    margin-top: 20px;
+}
+
+
+
+.img {
+    padding-right: 75px;
+    background-image: url(./imges/credit-card-solid.svg);
+    width: 60px;
+    height: 60px;
+    background-size: cover;
+}
+
+
+.img2 {
+    background-image: url(./imges/briefcase-solid.svg);
+    width: 60px;
+    height: 60px;
+    background-size: cover;
+}
+
+
+
+.img3 {
+    background-image: url(./imges/rocket-solid.svg);
+    width: 60px;
+    height: 60px;
+    background-size: cover;
+}
+
+
+
+.img4 {
+    background-image: url(./imges/map-solid.svg);
+    width: 60px;
+    height: 60px;
+    background-size: cover;
+}
+
+
+
+.img5 {
+    padding-right: 75px;
+    background-image: url(./imges/trophy-solid.svg);
+    width: 60px;
+    height: 60px;
+    background-size: cover;
+}
+
+
+
+.img6 {
+    background-image: url(./imges/microchip-solid.svg);
+    width: 60px;
+    height: 60px;
+    background-size: cover;
+}
+
+
+.img7 {
+    padding-right: 75px;
+    background-image: url(./imges/people-group-solid.svg);
+    width: 60px;
+    height: 60px;
+    background-size: cover;
+}
+
+
+
+.img8 {
+    background-image: url(./imges/headset-solid.svg);
+    width: 60px;
+    height: 60px;
+    background-size: cover;
+}
+
+p {
+
+    font-size: 20px;
+    margin-top: 30px;
+    color: white;
+}
+
+
+h4 {
+    color: white;
+    width: 80px;
+    margin-top: 70px;
+    border-bottom: 0.5px solid white;
+    margin-left: 110px;
+}
+
+.nameCard {
+    color: white;
+    margin-top: 20px;
+}
+
+@media (max-width:415px){
+    .con2 {
+        display: grid;
+        grid-template-columns: 1fr ;
+        margin: 0 auto;
+    }
+}
+@media (max-width:415px){
+    .con1 {
+        width: 400px;
+        margin: 0 auto;
+    }
+}
+
+
+
+
+
